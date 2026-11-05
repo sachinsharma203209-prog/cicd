@@ -1,0 +1,23 @@
+name: my first workflow
+on: push
+jobs:
+     job-1:
+           runs-on: ubuntu-latest
+           steps:
+              - name: firts step 
+                run : echo " hello for step 1"
+            
+              - name : second job
+                run  : echo " this is second job"
+                
+      
+      job-2:
+            runs-on : ubuntu-latest
+            steps:
+                - name : third setup
+                  run : echo " hi i am the third job"
+
+                - name  : four job
+                  run : echo " kejfhefujeh"
+
+
